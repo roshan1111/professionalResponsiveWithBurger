@@ -1,0 +1,1 @@
+this is a responsive website. it is mobile friendly and feel free to use it and change it. 
