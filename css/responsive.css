@@ -1,0 +1,90 @@
+.line{
+    width: 33px;
+    background: white;
+    height: 4px;
+    margin: 6px;
+}
+
+.burger{
+    margin: 11px;
+    position: absolute;
+    margin: 11px;
+    right: 5%;
+    top: 15px;
+    display: none;
+
+}
+
+
+@media only screen and (max-width: 1375px){
+.navlist{
+    flex-direction: column;
+}
+.navbar{
+    flex-direction: column;
+    align-items: center;
+    height: 649px;
+    transition: all 0 .9s ease-out;
+    
+}
+.rightNav{
+    flex-direction: column;
+}
+
+.burger{
+  
+    display: block;
+
+}
+
+.resnbar{
+    opacity: 0;
+}
+
+.res-navbar{
+    height: 71px;
+}
+
+
+
+.text-image {
+    width: 45%;
+}
+.main-box {
+    
+    flex-direction: column-reverse;
+}
+
+.linkbutton {
+    margin: -2px 0 75px 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.main-text {
+    font-size: 2.5rem;
+    text-align: center;
+}
+.cardcon {
+    flex-direction: column;
+}
+
+
+.imagetext{
+    flex-direction: column;
+    text-align: center;
+
+}
+.remove-space {
+    text-align: center;
+
+    flex-direction: column;
+}
+.sideimage {
+    width: 100%;
+}
+.sidetext {
+    width: 100%;
+}
+}
